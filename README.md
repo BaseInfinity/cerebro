@@ -37,7 +37,7 @@ npm run build
 ```
 
 Example Output:
-```
+```js
 Found: "Diablo"
 https://www.youtube.com/watch?v=T6ppSe33SmA&t=7s
 
