@@ -31,8 +31,7 @@ Now that WhisperAI is installed, lets install other packages and generate a dist
 ```bash
 gh repo clone BaseInfinity/cerebro && cd cerebro
 
-npm install
-npm run build
+npm install && npm run build
 ```
 
 ## Usage
