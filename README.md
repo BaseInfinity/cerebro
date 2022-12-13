@@ -62,5 +62,5 @@ https://www.youtube.com/watch?v=T6ppSe33SmA&t=602s
 ```
 
 ## Important
-* Be sure to use quotes around your arguments 
+* Be sure to use quotes around your CLI arguments
 * Initial downloads and transcriptions will be slow, but you can repeat the command again with diff search inputs and it will be blazingly fast
