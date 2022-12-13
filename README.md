@@ -1,4 +1,4 @@
-# cerebro
+# Cerebro
 
 Allows you to search youtube videos given a search term to generate exact URL's to the timestamp in the Youtube video
 
