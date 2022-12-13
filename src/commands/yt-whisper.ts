@@ -1,7 +1,7 @@
 import {Command, Flags} from '@oclif/core'
 import fs = require('fs')
 import Transcription from '../transcription'
-import {spawnSync} from 'node:child_process'
+import {execSync} from 'node:child_process'
 
 export default class YtWhisper extends Command {
   static description = 'describe the command here'
@@ -28,11 +28,7 @@ export default class YtWhisper extends Command {
 
     // Ignore if directory exists already
     if (!fs.existsSync(outputDir)) {
-      spawnSync(
-        'yt_whisper',
-        [flags.url, '--output_dir', outputDir],
-        {stdio: 'inherit'},
-      )
+      execSync(`yt_whisper ${flags.url} --output_dir ${outputDir}`, {stdio: 'inherit'})
     }
 
     // Round-about way to get the file name...
