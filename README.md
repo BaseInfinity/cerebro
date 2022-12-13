@@ -1,6 +1,6 @@
 # Cerebro
 
-Sipmle CLI that allows you to search youtube videos given a search term to generate exact URL's to the timestamp in the Youtube video
+Simple CLI that allows you to search youtube videos given a search term and generates an exact Youtube URL with timestamp in the Youtube video
 
 
 ## Installation
