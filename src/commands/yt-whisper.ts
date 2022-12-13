@@ -17,7 +17,14 @@ export default class YtWhisper extends Command {
   public async run(): Promise<void | any> {
     const {flags} = await this.parse(YtWhisper)
     const youtubeId = this.getYoutubeId(flags.url)
-    const outputDir = `transcriptions/${youtubeId}`
+
+    const transcriptionsPath = 'transcriptions'
+    const outputDir = `${transcriptionsPath}/${youtubeId}`
+
+    // Always ensure transcriptions directory exists
+    if (!fs.existsSync(transcriptionsPath)) {
+      fs.mkdirSync(transcriptionsPath)
+    }
 
     // Ignore if directory exists already
     if (!fs.existsSync(outputDir)) {
