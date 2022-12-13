@@ -43,7 +43,7 @@ You will also need to install Node: `>=14.0.0`
 Now that WhisperAI is installed, lets install other packages and generate a distro build
 
 ```bash
-# If you haven't cloned the repo and are at root directory yet....
+# If you haven't cloned the repo and aren't at root directory yet....
 gh repo clone BaseInfinity/cerebro && cd cerebro
 
 npm install && npm run build
