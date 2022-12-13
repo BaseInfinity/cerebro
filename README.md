@@ -5,7 +5,7 @@ Simple CLI that allows you to search youtube videos given a search term and gene
 
 ## Installation
 
-### Whisper-AI
+#### Whisper-AI
 
 This repository uses `youtube-dl` and [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitle files for any youtube video.
 
@@ -21,7 +21,7 @@ export PATH="~/.local/bin:$PATH"
 
 Close your terminal to start a new session and account for these new changes.
 
-### ffmpeg
+#### ffmpeg
 
 You'll also need to install [`ffmpeg`](https://ffmpeg.org/), which is available from most package managers:
 
@@ -36,10 +36,10 @@ brew install ffmpeg
 choco install ffmpeg
 ```
 
-### Node
+#### Node
 You will also need to install Node: `>=14.0.0`
 
-### Cerebro
+#### Cerebro
 Now that WhisperAI is installed, lets install other packages and generate a distro build
 
 ```bash
