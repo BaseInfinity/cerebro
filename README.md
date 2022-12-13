@@ -56,7 +56,6 @@ npm install && npm run build
 
 ## Example Output:
 ```bash
-./bin/run find "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "up, give, you, gonna, never"
 [youtube] dQw4w9WgXcQ: Downloading webpage
 [youtube] dQw4w9WgXcQ: Downloading android player API JSON
 [info] dQw4w9WgXcQ: Downloading 1 format(s): 251
