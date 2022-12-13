@@ -24,9 +24,13 @@ brew install ffmpeg
 choco install ffmpeg
 ```
 
+You will also need to install Node: `>=14.0.0`
+
 Now that WhisperAI is installed, lets install other packages and generate a distro build
 
 ```bash
+gh repo clone BaseInfinity/cerebro && cd cerebro
+
 npm install
 npm run build
 ```
