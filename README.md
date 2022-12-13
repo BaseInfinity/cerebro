@@ -11,7 +11,7 @@ This repository uses `youtube-dl` and [OpenAI's Whisper](https://openai.com/blog
 
 To get started, you'll need `Python 3.7` or newer. Install the binary by running the following command:
 
-    pip install git+https://github.com/m1guelpf/yt-whisper.git
+    sudo -H pip install git+https://github.com/m1guelpf/yt-whisper.git
 
 If after this you cannot run the `yt_whisper` globally from the CLI, then add the directory path that `pip` installs packages to your `~/.bash_profile` or `~/.bashrc`:
 
@@ -55,27 +55,37 @@ npm install && npm run build
 ```
 
 ## Example Output:
-```js
-Found: "Diablo"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=7s
+```bash
+./bin/run find "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "up, give, you, gonna, never"
+[youtube] dQw4w9WgXcQ: Downloading webpage
+[youtube] dQw4w9WgXcQ: Downloading android player API JSON
+[info] dQw4w9WgXcQ: Downloading 1 format(s): 251
+[download] Destination: /var/folders/m4/wmggw2n90qq12py32x4790gh0000gn/T/dQw4w9WgXcQ.webm
+[download] 100% of    3.28MiB in 00:00:00 at 8.13MiB/s
+[ExtractAudio] Destination: /var/folders/m4/wmggw2n90qq12py32x4790gh0000gn/T/dQw4w9WgXcQ.mp3
+Deleting original file /var/folders/m4/wmggw2n90qq12py32x4790gh0000gn/T/dQw4w9WgXcQ.webm (pass -k to keep)
+Downloaded video "Rick Astley - Never Gonna Give You Up (Official Music Video)". Generating subtitles...
+Detected language: English
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████21204/21204 
+[01:23<00:00, 252.80frames/s]
+Saved VTT to /Users/stefanayala/cerebro/transcriptions/dQw4w9WgXcQ/Rick_Astley___Never_Gonna_Give_You_Up__Official_Music_Video.vtt
+Found: "You"
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=22s
 
-Found: "new"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=64s
+Found: "You"
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30s
 
-Found: "new"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=64s
+Found: "you"
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=34s
 
-Found: "new"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=72s
+Found: "you"
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=39s
 
-Found: "new"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=77s
+Found: "Never"
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=42s
 
-Found: "help"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=505s
-
-Found: "help"
-https://www.youtube.com/watch?v=T6ppSe33SmA&t=602s
+Found: "gonna"
+https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=42s
 
 ```
 
