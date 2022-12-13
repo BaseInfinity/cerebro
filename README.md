@@ -11,7 +11,7 @@ This repository uses `youtube-dl` and [OpenAI's Whisper](https://openai.com/blog
 
 To get started, you'll need `Python 3.7` or newer. Install the binary by running the following command:
 
-    sudo -H pip install git+https://github.com/m1guelpf/yt-whisper.git
+    sudo -H pip install git+https://github.com/baseinfinity/yt-whisper.git
 
 If after this you cannot run the `yt_whisper` globally from the CLI, then add the directory path that `pip` installs packages to your `~/.bash_profile` or `~/.bashrc`:
 
