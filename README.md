@@ -51,7 +51,7 @@ npm install && npm run build
 
 ## Usage
 ```bash
-./bin/run find "https://www.youtube.com/watch?v=T6ppSe33SmA" "new, diablo, help"
+./bin/run find "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "up, give, you, gonna, never"
 ```
 
 ## Example Output:
