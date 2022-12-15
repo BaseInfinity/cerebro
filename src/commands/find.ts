@@ -10,7 +10,7 @@ export default class Find extends Command {
   static description = 'find search terms within the video, separated by commas'
 
   static examples = [
-    '<%= config.bin %> <%= command.id %> "https://www.youtube.com/watch?v=EHK5fBm1YWk" "elmo, dune"',
+    '<%= config.bin %> <%= command.id %> "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "up, give, you, gonna, never"',
   ]
 
   static args = [{name: 'url', required: true}, {name: 'terms', required: true}]
