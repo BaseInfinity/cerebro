@@ -1,6 +1,6 @@
 # Cerebro
 
-Simple CLI that allows you to search youtube video content given a search term and generates an exact Youtube URL with timestamp in the Youtube video wherever those terms are mentioned
+AI Powered (WhisperAI) - Simple CLI that allows you to search youtube video content given a search term and generates an exact Youtube URL with timestamp in the Youtube video wherever those terms are mentioned
 
 
 ## Installation
